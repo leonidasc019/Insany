@@ -6,23 +6,23 @@
     <link rel="stylesheet" type="text/css" href="/src/style/style.sass">
 
     <body>
-        <div class="top-bar">
+        <div class="top-bar">       <!-- Barra do topo-->
             <h2>Mês do digital, aproveite para fazer parte do SmartBusiness!</h2>
             <h3 id="x">X</h3>
         </div>
-
+        
         <section class="hero-banner"> <!-- Inicio Página principal-->
             <div class="header-body">
                 <header>    <!-- Inicio Cabeçalho página principal-->
                     <div class="logo">
                         <img src="/src/imgs/logo.svg" alt="logo">
                     </div>       <!-- Logo SmartBusiness-->
-                    <div class="acess">                             <!-- Div da classe Acess, onde fica o acesso usuario-->
-                        <img src="/src/imgs/Group 3.svg">
-                        <button onmouseover="showAcess();" onmouseout="resetAcess();" id="acButton">
-                        </button>
-                    </div>
                     <div class="buttons">                           <!-- Classe buttons onde fica toda parte do cadastra-se -->
+                        <div class="acess">                             <!-- Div da classe Acess, onde fica o acesso usuario-->
+                            <img src="/src/imgs/Group 3.svg">
+                            <button onmouseover="showAcess();" onmouseout="resetAcess();" id="acButton">
+                            </button>
+                        </div>
                         <button onmouseover="showText();" onmouseout="reset();" id="cadButton">
                             Cadastre-se gratuitamente
                         </button>
@@ -30,8 +30,22 @@
                 </header>   <!-- Inicio Cabeçalho página principal-->
             </div>
             <div class="center-group">
-                <div class="content-hero">                                         <!-- Campo informação Central-->
-
+                <div class="content-hero">                                         <!-- Campo informação Central Esquerdo-->
+                    <div class="logo-hero">
+                        <img src="/src/imgs/icon.png">
+                        <h3>A receita certa para o seu negócio</h3>
+                    </div>
+                    <div class="text-hero">
+                        <h1>O segredo para um negócio de sucesso!</h1>
+                        <h3>Pellentesque rutrum turpis non est turpis pretium morbi urna. Erat dictum blandit aliquam purus sed rhoncus.</h3>
+                    </div>
+                    <div class="buttons-hero">
+                        <button id="hero-Button">Cadastrar meu negócio</button>
+                        <div class="hero-contact">                             <!-- Div da classe Acess, onde fica o acesso usuario-->
+                            <img src="/src/imgs/Group 39935.svg">
+                            <button onmouseover="showHero();" onmouseout="resetHero();" id="hero-c"></button>
+                        </div>
+                    </div>
                 </div>
                 <div class="mask-group">
                     <img src="/src/imgs/ISTOCKPHOTO_1306561015-removebg 1.png">

@@ -14,3 +14,12 @@ function showAcess() {
 function resetAcess() {
     document.getElementById("acButton").innerHTML = ""; 
   }
+
+  /* Inicio função para Fale Conosco */
+function showHero() {
+  document.getElementById("hero-c").innerHTML = "<span style='color: black;'>Fale conosco</span>"; 
+}
+
+function resetHero() {
+  document.getElementById("hero-c").innerHTML = ""; 
+}
