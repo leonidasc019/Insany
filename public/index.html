@@ -6,22 +6,32 @@
     <link rel="stylesheet" type="text/css" href="/src/style/style.sass">
 
     <body>
+        <div class="top-bar">
+            <h2>Mês do digital, aproveite para fazer parte do SmartBusiness!</h2>
+        </div>
         <section class="hero-banner"> <!-- Inicio Página principal-->
             <div class="header-body">
                 <header>    <!-- Inicio Cabeçalho página principal-->
-                    <img src="/src/imgs/logo.svg" alt="logo">
-                    <div class="buttons">
-                        <button id="textButton">
+                    <img src="/src/imgs/logo.svg" alt="logo">       <!-- Logo SmartBusiness-->
+                    <div class="acess">                             <!-- Div da classe Acess, onde fica o acesso usuario-->
+                        <img src="/src/imgs/Group 3.svg">
+                        <button onmouseover="showAcess();" onmouseout="resetAcess();" id="acButton">
+                        </button>
+                    </div>
+                    <div class="buttons">                           <!-- Classe buttons onde fica toda parte do cadastra-se -->
+                        <button onmouseover="showText();" onmouseout="reset();" id="cadButton">
                             Cadastre-se gratuitamente
                         </button>
                     </div>
                 </header>   <!-- Inicio Cabeçalho página principal-->
             </div>
         </section><!-- Fim Página principal-->
+
         <section class="feedbacks"><!-- Área do Feedback -->
             
         </section>                 <!-- FIM Área do Feedback -->
         <div class="spacing"></div>
+        
     </body>
-
+    <script type="text/javascript" src="/src/js/javascript.js"></script>
 </html>
