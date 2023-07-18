@@ -397,35 +397,126 @@ header{
     width: 1440px;
     height: 608px;
     display: flex;
-    flex-wrap: wrap;
-    background-color: black;    
+    flex-wrap: wrap; 
 }
 
 .content{
     width: 483px;
     height: 317px;
     margin-left: 113px;
-    background-color: green;
     margin-top: 10px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    
 }
 
 .text{
     width: 483px;
-    height: 157px;
-    background-color: yellow;    
+    height: 120px;    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
 }
 
 .text h5{
     width: 109px;
     height: 21px;
-    font-size:  12px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
     color: #1D63FF;  
     margin:0;
 }
 
+.title-sub{
+    width: 483px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+}
+.title-sub h3{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    margin: 0;
+}   
 
+.bullets{
+    display: flex;
+    width: 310px;
+    height: 120px;
+    flex-direction: column;
+    align-items: flex-start;   
+    gap: 12px;  
+}
+.bullets img{
+    width: 24px;
+    height: 24px;    
+}
+.bullets h6{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.frame49{
+    width: 303px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}   
+.frame50{
+    width: 303px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+} 
+.frame51{
+    width: 303px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+} 
+.small-image img{
+    width: 164px;
+    height: 255px;
+    flex-shrink: 0;  
+    margin-left: 200px;
+    margin-top: 220px;
+
+}
+#arrow{
+
+    cursor: pointer;    
+}
+#arrow2{
+    flex-shrink: 0;
+    cursor: pointer;  
+}
+.video{
+    width: 696px;
+    height: 376px;
+    flex-shrink: 0; 
+}
+.brands{
+    display: flex;
+    width: 1440px;
+    height: 136px;
+    justify-content: flex-end;
+    align-items: center;  
+    background-color: black; 
+    background-color: #F2F5FC;
+    gap: 84px;
+}
 @font-face {
   font-family: 'Archive';
   src: url("/Archivo-Regular.ttf") format('truetype');
