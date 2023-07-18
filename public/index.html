@@ -6,17 +6,137 @@
     <link rel="stylesheet" type="text/css" href="/src/style/style.sass">
 
     <body>
+        <div class="top-bar">       <!-- Barra do topo-->
+            <h2>Mês do digital, aproveite para fazer parte do SmartBusiness!</h2>
+            <h3 id="x">X</h3>
+        </div>
+        
         <section class="hero-banner"> <!-- Inicio Página principal-->
             <div class="header-body">
                 <header>    <!-- Inicio Cabeçalho página principal-->
-                    
+                    <div class="logo">
+                        <img src="/src/imgs/logo.svg" alt="logo">
+                    </div>       <!-- Logo SmartBusiness-->
+                    <div class="buttons">                           <!-- Classe buttons onde fica toda parte do cadastra-se -->
+                        <div class="acess">                             <!-- Div da classe Acess, onde fica o acesso usuario-->
+                            <img src="/src/imgs/Group 3.svg">
+                            <button onmouseover="showAcess();" onmouseout="resetAcess();" id="acButton">
+                            </button>
+                        </div>
+                        <button onmouseover="showText();" onmouseout="reset();" id="cadButton">
+                            Cadastre-se gratuitamente
+                        </button>
+                    </div>
                 </header>   <!-- Inicio Cabeçalho página principal-->
             </div>
+            <div class="center-group">
+                <div class="content-hero">                                        <!-- Campo informação Central Esquerdo-->
+                    <div class="logo-hero">
+                        <img src="/src/imgs/icon.png">
+                        <h3>A receita certa para o seu negócio</h3>
+                    </div>
+                    <div class="text-hero">
+                        <h1>O segredo para um negócio de sucesso!</h1>
+                        <h3>Pellentesque rutrum turpis non est turpis pretium morbi urna. Erat dictum blandit aliquam purus sed rhoncus.</h3>
+                    </div>
+                    <div class="buttons-hero">
+                        <button id="hero-Button">Cadastrar meu negócio</button>
+                        <div class="hero-contact">                             <!-- Div da classe Acess, onde fica o acesso usuario-->
+                            <img src="/src/imgs/Group 39935.svg">
+                            <button onmouseover="showHero();" onmouseout="resetHero();" id="hero-c"></button>
+                        </div>
+                    </div>
+                    <div class="chart">
+                        <img src="/src/imgs/chart.png" id="arrow">
+                    </div> 
+                    <div class="iconchat">
+                        <img src="/src/imgs/icon-chat.png" id="arrow">
+                    </div> 
+                    <div class="arrow">
+                        <img src="/src/imgs/arrow-next.svg" id="arrow">
+                    </div>
+                </div>
+                <div class="mask-group">
+                    <img src="/src/imgs/ISTOCKPHOTO_1306561015-removebg 1.png">
+                </div>
+            </div>
         </section><!-- Fim Página principal-->
+
         <section class="feedbacks"><!-- Área do Feedback -->
-            
+            <img src="/src/imgs/Mask group.png" id="bg-feed">
+            <div class="frame30">
+                <img src="/src/imgs/”.svg" id="fr">
+                <div class="frame29">
+                    <h4>Quis sed commodo est aliquam, praesent fames pretium quam. Nisi, massa of tipe tincidunt week.</h4>
+                </div>
+                <div class="frame27">   <!-- Campo feedback com foto -->
+                    <img src="/src/imgs/Group 39948.png">
+                    <div class="frame26">
+                        <h5>Savannah Nguyen</h5>
+                        <h6>UX Designer | Google</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="frame34">   <!-- area total dos números grandes-->
+                <div class="frame33">   
+                    <h4 id="value">120</h4>
+                    <h6>Projeto realizado 2021</h6>
+                </div>    
+                <div class="frame32">
+                    <h4 id="value">12</h4>
+                    <h6>Escritórios no Brasil</h6>
+                </div>
+                <div class="frame31">
+                    <h4 id="value">325m</h4>
+                    <h6>Faturamento 2021</h6>
+                </div>
+                <div class="flex-break"></div>
+                <img src="/src/imgs/Vector 3.png">
+                <h5>Expandindo para todo território nacional</h5>
+            </div>
         </section>                 <!-- FIM Área do Feedback -->
         <div class="spacing"></div>
+        <div class="text-video">    <!-- Terceira seção site, texto e vídeo-->
+            <div class="content">
+                <div class="text">
+                    <h5>Sobre a empresa</h5>
+                    <div class="title-sub">
+                        <h3>Criando e inovando desde 1988</h3>
+                    </div>
+                    <div class="bullets">
+                        <div class="frame49">
+                            <img src="/src/imgs/check.png">
+                            <h6>Sagittis sed cursus sed malesuada ultrices</h6>
+                        </div>
+                        <div class="frame50">
+                            <img src="/src/imgs/check.png">
+                            <h6>Lectus ac at massa ac tellus fringilla aenean</h6>
+                        </div>
+                        <div class="frame51">
+                            <img src="/src/imgs/check.png">
+                            <h6>Cras faucibus tristique volutpat accumsan</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="small-image">
+                    <img src="/src/imgs/Group 39953.png">
+                </div>
+                <img src="/src/imgs/arrow-next.svg" id="arrow2">
+            </div>
+            <div class="video">
+                <img src="/src/imgs/video.png">
+            </div>
+        </div>
+        <div class="spacing"></div>
+        <div class="brands">                <!-- Seção de Marcas-->
+            <img src="/src/imgs/Group 6.svg" id="arrow">
+            <img src="/src/imgs/Group 7.svg" id="arrow">
+            <img src="/src/imgs/Group 8.svg" id="arrow">
+            <img src="/src/imgs/Group 9.svg" id="arrow">
+            <img src="/src/imgs/Vector.svg"  id="arrow">
+            <img src="/src/imgs/Vector2.svg" id="arrow">
+        </div>
+        <div class="spacing"></div>
     </body>
-
+    <script type="text/javascript" src="/src/js/javascript.js"></script>
 </html>
