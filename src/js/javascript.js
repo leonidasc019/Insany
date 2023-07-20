@@ -23,4 +23,9 @@ function showHero() {
 function resetHero() {
   document.getElementById("hero-c").innerHTML = ""; 
 }
-
+// Função Aleatória
+function getstring(){
+  const txts = ["sucesso!", "destaque!","impacto!"];
+  const numero = Math.floor(Math.random() * txts.length);
+return txts[numero]; 
+}
