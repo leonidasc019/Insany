@@ -22,10 +22,11 @@
                         <div class="acess">                             <!-- Div da classe Acess, onde fica o acesso usuario-->
                             <img src="/src/imgs/Group 3.svg">
                             <button onmouseover="showAcess();" onmouseout="resetAcess();" id="acButton">
+                               
                             </button>
                         </div>
                         <button onmouseover="showText();" onmouseout="reset();" id="cadButton">
-                            Cadastre-se gratuitamente
+                            <h6>Cadastre-se gratuitamente</h6>
                         </button>
                     </div>
                 </header>   <!-- Inicio Cabeçalho página principal-->
@@ -37,7 +38,7 @@
                         <h3>A receita certa para o seu negócio</h3>
                     </div>
                     <div class="text-hero">
-                        <h1>O segredo para um negócio de sucesso!</h1>
+                        <h1>O segredo para um negócio de</h1><h1 onload="getstring()"></h1>
                         <h3>Pellentesque rutrum turpis non est turpis pretium morbi urna. Erat dictum blandit aliquam purus sed rhoncus.</h3>
                     </div>
                     <div class="buttons-hero">
@@ -234,7 +235,6 @@
             <div class="section-blog">
                 <h4 id="blogh4">Nosso blog</h4>
                 <h5 id="noticiablog">Notícias do mundo da tecnologia</h5>
-
                 <div class="list-card">
                     <div class="card">
                         <div class="picture">
@@ -318,11 +318,139 @@
                     </div>
 
                 </div>
-                <img src="/src/imgs/Slider Switch.png" id="slider">
+                        
             </div>
-
-        </section>
+            <div class="slider">
+                <img src="/src/imgs/Slider Switch.png">
+            </div>
+        </section>            
         <!-- FIM Seção blog-->
+        <div class="spacing" style="background-color: #F2F5FC;"></div>
+        <div class="spacing"></div>
+        <!-- Faq Section-->
+            <section id="faq-sec">
+                <div class="faq-body">
+                    <div class="frame89">
+                        <div class="frame53">
+                            <h4>Tire suas dúvidas</h4>
+                            <h5>Perguntas mais frequentes</h5>
+                            <h6>Separamos algumas perguntas e respostas que podem te ajudar na sua decisão</h6>
+                            <button onmouseover="showText();" onmouseout="reset();" id="cadButton2">
+                                <h4 style="color: #FFF;">Cadastrar meu negócio</h4>
+                            </button>
+                            <div class="hero-contact">                             <!-- Div da classe Acess, onde fica o acesso usuario-->
+                                <img src="/src/imgs/Group 39935.svg">
+                                <button id="contato">Fale conosco</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frame103">
+                        <div class="frame74">
+                            <div class="fr74">
+                                <h3>01</h3>
+                                <h4>Quais recursos ainda posso acessar nas novas Páginas?</h4>
+                            </div>
+                            <img src="/src/imgs/Group 39928.svg">
+                        </div>
+
+                        <div class="frame74">
+                            <div class="fr74">
+                                <h3>02</h3>
+                                <h4>Como faço para abrir a minha nova Página?</h4>
+                            </div>
+                            <img src="/src/imgs/Group 39928.svg">
+                        </div>
+                        <div class="frame74">
+                            <div class="fr74">
+                                <h3>03</h3>
+                                <h4>Há algum conteúdo que não migrará com a minha Página?</h4>
+                            </div>
+                            <img src="/src/imgs/Group 39928.svg">
+                        </div>
+                        <div class="frame74">
+                            <div class="fr74">
+                                <h3>04</h3>
+                                <h4>Como as pessoas encontrarão a minha nova Página?</h4>
+                            </div>
+                            <img src="/src/imgs/Group 39928.svg">
+                        </div>
+                        <div class="frame74">
+                            <div class="fr74">
+                                <h3>05</h3>
+                                <h4>O que é o Feed? Como faço para configurá-lo?</h4>
+                            </div>
+                            <img src="/src/imgs/Group 39928.svg">
+                        </div>
+                    </div>
+                    <div class="faq-card">
+                        <div class="fr-card">
+                            <div class="fr-image">
+                                <img src="/src/imgs/Group 39938.svg">
+                            </div>
+                            <div class="fr-info">
+                                <h3>Dúvidas?</h3>
+                                <h4>Envie uma mensagem para nosso time</h4>
+                            </div>
+                        </div>
+                        <div class="fr-card">
+                            <div class="fr-image">
+                                <img src="/src/imgs/Group 333.svg">
+                            </div>
+                            <div class="fr-info">
+                                <h3>Faça parte</h3>
+                                <h4>Cadastre-se para transformar sua empresa</h4>
+                            </div>
+                        </div>
+                        <div class="fr-card">
+                            <div class="fr-image">
+                                <img src="/src/imgs/Group 39946.svg">
+                            </div>
+                            <div class="fr-info">
+                                <h3>Chama no zap</h3>
+                                <h4>Fale com nosso comercial</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- FIM Faq Section-->
+        <div class="spacing"></div>
+        <!-- BG NEWS Section-->
+            <section id="bg-news">
+                <div class="newsletter">
+                    <div class="frame120">
+                        <h3>Newsletter</h3>
+                        <div class="frame93">
+                            <h2>Fique por dentro das novidades</h2>
+                            <h4>Junte-se a mais de 20.000 clientes que já usam o SB para ficar por dentro de tudo que pode fazer sua empresa crescer. </h4>
+                        </div>
+                        <div class="email">
+                            <div class="frame124">
+                                <img src="/src/imgs/Group 481738.svg">
+                                <h5>Insira seu melhor e-mail</h5>
+                            </div>
+                            <div class="bt-email">
+                                <h4 style="color: #FFF;">Cadastrar</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- FIM BG NEWS Section-->
+        <!-- Footer-->
+        <footer class="footer">
+            <img src="/src/imgs/logo.svg" alt="logo">
+            <h3>© 2022 SmartBusiness. Todos os direitos reservados</h3>
+            <div class="social">
+                <img src="/src/imgs/Frame 37.png">
+                <img src="/src/imgs/Frame 38.svg">
+                <img src="/src/imgs/Frame 39.svg">
+                <img src="/src/imgs/Frame 40.svg">
+            </div>
+            <div class="frame42">
+                <h3>Desenvolvido por Insany Design</h3>
+            </div>
+        </footer>
     </body>
     <script type="text/javascript" src="/src/js/javascript.js"></script>
 </html>
