@@ -25,7 +25,7 @@ function resetHero() {
 }
 // Função Aleatória
 function getstring(){
-  const txts = ["sucesso!", "destaque!","impacto!"];
-  const numero = Math.floor(Math.random() * txts.length);
+  var txts = ['sucesso!', 'destaque!','impacto!'];
+  var numero = Math.floor(Math.random() * txts.length);
 return txts[numero]; 
 }
